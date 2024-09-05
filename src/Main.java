@@ -13,6 +13,9 @@ public class Main {
         int reverse = 0;
         int lastDigit = number % 10;
 
+
+
+
         while(number>0){
             lastDigit = number % 10;
             reverse *= 10;
